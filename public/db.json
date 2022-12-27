@@ -1,0 +1,94 @@
+{
+  "cakes": [
+    {
+      "id": 0,
+      "imageUrl": "https://img.freepik.com/free-photo/chocolate-cake-with-chocolate-sprinkles_144627-8998.jpg?w=740&t=st=1671279403~exp=1671280003~hmac=c197c717b234501c013323fc5609256f05341ca368465ffe1b682de218949980",
+      "name": "Шоколадный рай",
+      "types": [0],
+      "sizes": [1, 2],
+      "price": 19,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://img.freepik.com/free-photo/fruits-cake_74190-4962.jpg?w=740&t=st=1671279956~exp=1671280556~hmac=aceccfa572138be907ce65902a60602641239e6a558625c93054ecb23515d9c0",
+      "name": "Фруктовый остров",
+      "types": [0, 1],
+      "sizes": [1, 2],
+      "price": 23,
+      "category": 1,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.couverture.top/upload/o-8035969051579760273.jpg",
+      "name": " Карамельный торт",
+      "types": [0, 1],
+      "sizes": [1, 2, 3],
+      "price": 21,
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://avatars.mds.yandex.net/get-mpic/5316009/img_id8929673983997845520.jpeg/orig",
+      "name": "Медовик",
+      "types": [0],
+      "sizes": [1, 2, 3],
+      "price": 20,
+      "category": 2,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://sun9-46.userapi.com/impf/cECyvQOLCNUBsBUZWLLNq8cIK6DA1g_593iUwg/r1xIsHCEwAg.jpg?size=600x600&quality=96&sign=0437b46ba1488597e11c18e361fc237a&type=album",
+      "name": "Захер",
+      "types": [0],
+      "sizes": [1, 2],
+      "price": 18,
+      "category": 3,
+      "rating": 8
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://avatars.mds.yandex.net/get-mpic/5376414/img_id5092297276230972396.jpeg/orig",
+      "name": "Наполеон",
+      "types": [0],
+      "sizes": [1, 2, 3],
+      "price": 20,
+      "category": 1,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://www.pngplay.com/wp-content/uploads/7/Cheesecake-Background-PNG-Image.png",
+      "name": "Cheesecake",
+      "types": [0, 1],
+      "sizes": [1, 2, 3],
+      "price": 17,
+      "category": 4,
+      "rating": 10
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://podacha-blud.com/uploads/posts/2022-09/1664468537_35-podacha-blud-com-p-tort-na-belom-fone-foto-36.jpg",
+      "name": "Красный бархат",
+      "types": [0, 1],
+      "sizes": [1, 2, 3],
+      "price": 20,
+      "category": 5,
+      "rating": 10
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://catherineasquithgallery.com/uploads/posts/2021-03/1614557733_60-p-kartinki-na-belom-fone-s-dnem-rozhdeniya-85.jpg",
+      "name": "Happy Birthday",
+      "types": [1],
+      "sizes": [2, 3],
+      "price": 17,
+      "category": 5,
+      "rating": 7
+    }
+  ]
+}
