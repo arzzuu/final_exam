@@ -2,10 +2,10 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { connect } from "react-redux";
 import axios from "axios";
-import Header from "./components/Header";
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
-import store from "./redux/store";
+import AboutUs from "./pages/AboutUs";
+// import store from "./redux/store";
 import { setCakes } from "./redux/actions/cakes";
 // import store from "./redux/store";
 // import { Outlet } from "react-router-dom"
@@ -42,14 +42,12 @@ class App extends React.Component {
   render() {
     // console.log(this.props);
     return (
-      <div className="wrapper">
-        <Header />
-        <div className="content">
-          <Routes>
-            <Route path="/" element={<Home items={this.props.items} />} exact />
-            <Route path="/cart" element={<Cart />} />
-          </Routes>
-        </div>
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<Home items={this.props.items} />} exact />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
       </div>
     );
   }
@@ -59,5 +57,6 @@ const mapStateToProps = (state) => {
     items: state.cakes.items,
   };
 };
+// имеется state и из него нужно вытащить
 
 export default connect(mapStateToProps)(App);

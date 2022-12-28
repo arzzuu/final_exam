@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className="header">
       <div className="container">
-        <Link to={"/"}>
+        <Link to={"/"} style={{ textDecoration: "none" }}>
           <div className="header__logo">
             <img
               className="logo"
@@ -20,7 +20,7 @@ function Header() {
         </Link>
         <div className="header__cart">
           <a href="/cart" className="button button--cart">
-            <span>45 AZN</span>
+            <span>0 AZN</span>
             <div className="button__delimiter"></div>
             <svg
               width="18"
@@ -51,7 +51,7 @@ function Header() {
                 strokeLinejoin="round"
               />
             </svg>
-            <span>3</span>
+            <span>0</span>
           </a>
         </div>
       </div>
